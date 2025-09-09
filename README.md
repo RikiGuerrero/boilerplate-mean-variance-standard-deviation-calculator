@@ -1,36 +1,36 @@
-# 📊 Calculadora de Varianza, Desviación Estándar y Media
+# 📊 Variance, Standard Deviation and Mean Calculator
 
-Este proyecto es una **calculadora de estadísticas** en Python que convierte una lista de 9 números en una matriz 3x3 y calcula:
+This project is a **statistics calculator** in Python that converts a list of 9 numbers into a 3x3 matrix and calculates:
 
-- Media
-- Varianza
-- Desviación estándar
-- Máximo
-- Mínimo
-- Suma
+- Mean
+- Variance
+- Standard deviation
+- Maximum
+- Minimum
+- Sum
 
-Calcula estos valores **por filas, columnas y de forma global**.  
-Proyecto desarrollado como parte del currículo de **Python de freeCodeCamp**.
-
----
-
-## ⚡ Funcionalidades
-
-- ✅ Convierte una lista de 9 números en matriz 3x3.  
-- ✅ Calcula estadísticas a lo largo de filas, columnas y matriz completa.  
-- ✅ Devuelve resultados en un **diccionario con listas de Python**.  
-- ✅ Maneja errores si la lista tiene menos de 9 elementos.  
+It calculates these values **by rows, columns and globally**.  
+Project developed as part of **freeCodeCamp's Python curriculum**.
 
 ---
 
-## 🛠 Tecnologías
+## ⚡ Features
+
+- ✅ Converts a list of 9 numbers into a 3x3 matrix.  
+- ✅ Calculates statistics along rows, columns and entire matrix.  
+- ✅ Returns results in a **dictionary with Python lists**.  
+- ✅ Handles errors if the list has fewer than 9 elements.  
+
+---
+
+## 🛠 Technologies
 
 - Python 3  
 - NumPy
 
 ---
 
-## 💻 Uso
+## 💻 Usage
 
 ```python
 from mean_var_std import calculate
@@ -39,7 +39,7 @@ result = calculate([0,1,2,3,4,5,6,7,8])
 print(result)
 ```
 
-### Salida esperada:
+### Expected output:
 
 ```json
 {
@@ -54,9 +54,9 @@ print(result)
 
 ---
 
-## 🧪 Pruebas Unitarias
+## 🧪 Unit Tests
 
-Para ejecutar las pruebas:
+To run the tests:
 
 ```bash
 python3 -m unittest test_module.py
@@ -64,16 +64,16 @@ python3 -m unittest test_module.py
 
 ---
 
-## 👨‍💻 Autor
+## 👨‍💻 Author
 
 **Ricardo Guerrero**
 
 GitHub: https://github.com/RikiGuerrero
 
-Proyecto realizado como parte del currículo de Python en freeCodeCamp.
+Project developed as part of freeCodeCamp's Python curriculum.
 
 ---
 
-## 📄 Licencia
+## 📄 License
 
-Este proyecto es open source y puede usarse libremente.
+This project is open source and can be used freely.
